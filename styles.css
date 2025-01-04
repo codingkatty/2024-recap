@@ -7,6 +7,7 @@
 body {
     font-family: 'Indie Flower', serif;
     background-color: #92d2f2;
+    cursor: url('images/flower_cursor.svg') 16 16, auto;
 }
 
 p {
@@ -154,16 +155,16 @@ p {
 }
 
 .left-image {
-    order: -1; /* Places image before other flex items */
+    order: -1;
     max-width: 30%;
     height: auto;
     border: white 10px solid;
-    transform: rotate(-2deg); /* Negative rotation for left side */
+    transform: rotate(-2deg);
     transition: all 0.3s ease-in-out;
 }
 
 .left-image:hover {
-    transform: rotate(-8deg); /* Negative rotation on hover */
+    transform: rotate(-8deg);
 }
 
 .fixed {
